@@ -1,0 +1,38 @@
+* {
+	font-family: sans-serif !important;
+}
+
+body {
+	background-color: #eee;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+.border {
+	border: 1px solid #ddd;
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.letter-spacing {
+	letter-spacing: 10px;
+}
