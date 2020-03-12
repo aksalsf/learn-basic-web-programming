@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>valign</title>
+	<style type="text/css">
+		.text-center {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<!-- Judul -->
+	<h1 class="text-center">
+		valign
+	</h1>
+	<!-- Pendahuluan -->
+	<h2>Pendahuluan</h2>
+	<hr>
+	<p>
+		Salah satu cara atau format menampilkan informasi dalam web adalah dengan tabel. <br>
+		Tabel terdiri dari 4 unsur utama: <br>
+		<ul>
+			<li>Baris</li>
+			<li>Kolom</li>
+			<li>Sel</li>
+			<li>Garis</li>
+		</ul>
+		Kontruksi tabel diawali dengan tag &lt;table&gt;, kemudian diikuti tag &lt;th&gt;, &lt;tr&gt;, dan &lt;td&gt;.
+		<br>
+		Atribut Valign dan Align dalam memformat sel digunakan untuk mengatur posisi
+		data pada cell. Valign digunakan untuk mengatur posisi vertikal data relatif
+		terhadap sel, sedangkan align mengatur posisi horizontal. Secara default nilai atau value
+		dari Valign pada cell adalah center dan Alignnya adalah left.
+	</p>
+	<!-- Koding -->
+	<h2>Koding</h2>
+	<hr>
+	<xmp>
+		<h1>Sebuah Tabel</h1>
+		<table border="2" align="center" width="40%">
+			<tr>
+				<td rowspan="3" valign="top">Ini bagian tabel</td>
+				<td>Hypertext Markup Language</td>
+			</tr>
+			<tr>
+				<td align="right">HTML</td>
+			</tr>
+			<tr>
+				<td>lorem ipsum</td>
+			</tr>
+		</table>
+	</xmp>
+	<hr>
+	<!-- Hasil -->
+	<h2>Hasil</h2>
+	<hr>
+	<img src="img/valign.png">
+	<hr>
+		<h1>Sebuah Tabel</h1>
+		<table border="2" align="center" width="40%">
+			<tr>
+				<td rowspan="3" valign="top">Ini bagian tabel</td>
+				<td>Hypertext Markup Language</td>
+			</tr>
+			<tr>
+				<td align="right">HTML</td>
+			</tr>
+			<tr>
+				<td>lorem ipsum</td>
+			</tr>
+		</table>
+	<hr>
+	<!-- Kesimpulan -->
+	<h2>Kesimpulan</h2>
+	<hr>
+	<p>
+		Untuk membuat vertical align di table bisa menggunakan atribut valign. Baris yang menggunakan atribut valign akan berubah menjadi vertical align.
+	</p>
+	<hr>
+	<a href="index.html">Kembali</a>
+</body>
+</html>
