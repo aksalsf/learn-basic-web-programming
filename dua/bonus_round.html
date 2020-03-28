@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form CV</title>
+</head>
+<body style="background: #000;">
+	<div style="width: 70%; margin: 4rem auto; border-radius: 15px; background: #fff; padding: 5%;">
+		<h1 style="text-align: center;">
+			Form CV
+		</h1>
+		<hr style="width: 30%;">
+		<div style="width: 50%; margin: 0 auto; border: 1.5px #000 solid; padding: 5%;border-radius: 15px;">
+			<form method="post" enctype="multipart/form-data">
+				<label for="nama">Nama</label>
+				<br>
+				<input type="text" name="nama" placeholder="John Doe">
+				<br>
+				<label for="ttl">Tempat, Tanggal Lahir</label>
+				<br>
+				<input type="date" name="ttl">
+				<br>
+				<label for="agama">Agama</label>
+				<br>
+				<select name="agama">
+					<option value="Islam">Islam</option>
+					<option value="Kristen">Kristen</option>
+					<option value="Katolik">Katolik</option>
+					<option value="Hindu">Hindu</option>
+					<option value="Budha">Budha</option>
+					<option value="Konghuchu">Konghuchu</option>
+				</select>
+				<br>
+				<label for="hobi">Hobi</label>
+				<br>
+				<input type="text" name="hobi">
+				<br>
+				<label for="alamat">Alamat</label>
+				<br>
+				<textarea rows="3" cols="30"></textarea>
+				<br>
+				<input type="file" name="file">
+				<br>
+				<input type="submit" value="Kirim">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+
+<!-- CV -->
+<!-- nama
+alamat
+ttl
+agama
+hobi
+upload
+submit -->
