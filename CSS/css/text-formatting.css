@@ -1,0 +1,15 @@
+.text-formatting h2{
+	font-family: cursive;
+	font-weight: 700px;
+	font-size: 2.5rem;
+	color: #0076fe;
+	border-left: 2px solid #0076fe;
+	padding-left: 1rem;
+	text-transform: capitalize;
+}
+
+.text-formatting p {
+	text-align: left;
+	font-size: 1rem;
+	line-height: 1.5;
+}

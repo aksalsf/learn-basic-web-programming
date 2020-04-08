@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 6: Background - Belajar CSS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.png">
+</head>
+<body class="bg-blue">
+	<div class="w-100">
+		<div class="home-box bg-white rounded shadow p-5">
+			<h1 class="text-center">
+				Latihan 6: Background
+			</h1>
+			<hr>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Pendahuluan
+			</h2>
+			<div class="border rounded p-1">
+				<p>
+					Background dalam CSS bisa memiliki beberapa properti. Kita bisa mengatur jenis background, warna atau gambar. Kita juga bisa mengatur ukuran background, pengulangan, dan posisi background.
+				</p>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode HTML
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+				    <code>
+<!-- Your code here -->
+&lt;div class=&quot;bg-racheto&quot;&gt;
+&lt;h2>(Katanya) WhatsApp&lt;/h2&gt;
+&lt;/div&gt;
+				    </code>
+				  </pre>
+				</figure>
+			</div>
+
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode CSS
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+					<code>
+.bg-racheto {
+	background-image: url(../img/bukan-background.png);
+	background-color: #25D366;
+	background-position: center;
+	background-repeat: repeat;
+	padding: 3rem;
+	border-radius: 0.5rem;
+}
+
+.bg-racheto h2{
+	color: #FFF;
+	text-shadow: 5px 5px 5px #667278;
+	font-family: Roboto;
+	font-size: 3rem;
+	text-align: center;
+}
+					</code>
+				  </pre>
+				</figure>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Hasil
+			</h2>
+			<div>
+				<div class="bg-racheto">
+					<h2>(Katanya) WhatsApp</h2>
+				</div>
+			</div>
+			<br>
+		</div>
+		<a href="content-menu.html" width="100%">
+			<h3 class="blue bg-white p-1 rounded shadow back-button">
+				Kembali
+			</h3>
+		</a>
+	</div>
+</body>
+</html>

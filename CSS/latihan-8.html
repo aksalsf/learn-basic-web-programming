@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 8: Border Radius - Belajar CSS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.png">
+</head>
+<body class="bg-blue">
+	<div class="w-100">
+		<div class="home-box bg-white rounded shadow p-5">
+			<h1 class="text-center">
+				Latihan 8: Border Radius
+			</h1>
+			<hr>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Pendahuluan
+			</h2>
+			<div class="border rounded p-1">
+				<p>
+					Border radius digunakan untuk mengubah tingkat ketajaman dari border suatu elemen
+				</p>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode HTML
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+				    <code>
+<!-- Your code here -->
+&lt;div class=&quot;flex&quot;&gt;
+&lt;div class=&quot;col&quot;&gt;
+&lt;h4 class=&quot;round&quot;&gt;Rounded&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col&quot;&gt;
+&lt;h4 class=&quot;circle&quot;&gt;Circle&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+				    </code>
+				  </pre>
+				</figure>
+			</div>
+
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode CSS
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+					<code>
+.flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.col {
+	flex-grow: 4;
+	margin: 1rem;
+}
+
+@media (max-width:768px) {
+	.flex {
+		flex-direction: column;
+	}
+}
+
+.round {
+	width: 250px;
+	height: 250px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	padding: 1rem;
+	background-color: #0076fe;
+	border-radius: 0.5rem;
+}
+
+.circle {
+	width: 250px;
+	height: 250px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	padding: 1rem;
+	background-color: #0076fe;
+	border-radius: 100%;
+}
+
+@media (max-width: 560px) {
+	.round, .circle {
+		width: 150px;
+		height: 150px;
+	}
+}
+					</code>
+				  </pre>
+				</figure>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Hasil
+			</h2>
+			<br>
+			<div class="flex">
+				<div class="col">
+					<h4 class="round">Rounded</h4>
+				</div>
+				<div class="col">
+					<h4 class="circle">Circle</h4>
+				</div>
+			</div>
+			<br>
+		</div>
+		<a href="content-menu.html" width="100%">
+			<h3 class="blue bg-white p-1 rounded shadow back-button">
+				Kembali
+			</h3>
+		</a>
+	</div>
+</body>
+</html>
