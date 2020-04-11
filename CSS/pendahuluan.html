@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar CSS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.ex-css {
+			font-size: 1rem;
+			background-color:salmon;
+			color: #fff;
+			padding: 1rem;
+			margin: 1rem;
+			text-decoration: none;
+			font-family: sans-serif;
+			text-transform: uppercase;
+			font-weight: bold;
+			transition: all 1s;
+		}
+		.ex-css:hover{
+			background-color: tomato;
+			border-radius: 10px;
+			text-decoration: underline;
+		}
+
+		@media (max-width: 768px) {
+			.ex-css {
+				font-size: 0.5rem;
+			}
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="bg-blue">
+	<div class="w-100">
+		<div class="home-box bg-white rounded shadow p-5">
+			<h1 class="text-center">
+				Pendahuluan
+			</h1>
+			<hr>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Apa itu CSS?
+			</h2>
+			<p>
+				CSS adalah sebuah bahasa yang mendefinisikan bagaimana wajah dari suatu elemen HTML. Ibarat bangunan, kalau HTML adalah kerangkanya, maka CSS adalah cat dan dekorasi yang membuat bangunan itu tampak indah.
+			</p>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Contoh HTML Tanpa CSS
+			</h2>
+			<br>
+			<a href="#">
+				Jangan klik di sini
+			</a>
+			<br>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Contoh HTML Dengan CSS
+			</h2>
+			<br>
+			<a href="#" class="ex-css">
+				Jangan klik di sini
+			</a>
+			<br>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Struktur Penulisan CSS
+			</h2>
+			<p>
+				<img src="img/selector.gif">
+			</p>
+		</div>
+		<a href="content-menu.html" width="100%">
+			<h3 class="blue bg-white p-1 rounded shadow back-button">
+				Kembali
+			</h3>
+		</a>
+	</div>
+</body>
+</html>

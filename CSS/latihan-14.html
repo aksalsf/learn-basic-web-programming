@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 14: CSS Button - Belajar CSS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.png">
+</head>
+<body class="bg-blue">
+	<div class="w-100">
+		<div class="home-box bg-white rounded shadow p-5">
+			<h1 class="text-center">
+				Latihan 14: CSS Button
+			</h1>
+			<hr>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Pendahuluan
+			</h2>
+			<div class="border rounded p-1">
+				<p>
+					Button perlu dipercantik untuk memperkuat kontras dari elemen itu sendiri. Button harus memiliki kesan agar pengunjung fokus dan memencet button tersebut.
+				</p>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode HTML
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+				    <code>
+<!-- Your code here -->
+&lt;button class=&quot;my-btn&quot;&gt;
+flat button
+&lt;/button&gt;
+&lt;button class=&quot;rounded-btn&quot;&gt;
+rounded button
+&lt;/button&gt;
+				    </code>
+				  </pre>
+				</figure>
+			</div>
+
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode CSS
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+					<code>
+.my-btn {
+	margin: 20px 0;
+	padding: 1rem 1.5rem;
+	background: linear-gradient(to right, tomato, crimson);
+	border: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.my-btn:hover {
+	text-decoration: underline;
+	background: crimson;
+}
+
+.rounded-btn {
+	border-radius: 0.5rem;
+	cursor: pointer;
+	border: thin solid #0076fe;
+	padding: 1rem;
+	color: #fff;
+	background-color: #0076fe;
+	font-weight: 700;
+	transition: 0.5s all;
+	box-shadow: 5px 5px 5px rgba(200,200,200,0.5);
+}
+
+.rounded-btn:hover{
+	background-color: #fff;
+	color: #0076fe;
+}
+					</code>
+				  </pre>
+				</figure>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Hasil
+			</h2>
+			<br>
+			<button class="my-btn">
+				flat button
+			</button>
+			<button class="rounded-btn">
+				rounded button
+			</button>
+			<br>
+		</div>
+		<a href="content-menu.html" width="100%">
+			<h3 class="blue bg-white p-1 rounded shadow back-button">
+				Kembali
+			</h3>
+		</a>
+	</div>
+</body>
+</html>

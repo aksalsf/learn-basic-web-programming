@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 10: Box Shadow - Belajar CSS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.png">
+</head>
+<body class="bg-blue">
+	<div class="w-100">
+		<div class="home-box bg-white rounded shadow p-5">
+			<h1 class="text-center">
+				Latihan 10: Box Shadow
+			</h1>
+			<hr>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Pendahuluan
+			</h2>
+			<div class="border rounded p-1">
+				<p>
+					Properti box shadow akan memberikan bayangan pada elemen. Sintaks penulisan box shadow bisa dilihat di bawah ini.
+					<br>
+					<em>
+						box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+					</em>
+				</p>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode HTML
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+				    <code>
+<!-- Your code here -->
+&lt;div class=&quot;card&quot;&gt;
+&lt;div class=&quot;card-content&quot;&gt;
+&lt;h3 class=&quot;card-title&quot;&gt;
+&lt;/h3&gt;
+&lt;p&gt;
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+				    </code>
+				  </pre>
+				</figure>
+			</div>
+
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode CSS
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+					<code>
+
+.card {
+	background-color: #fff;
+	width: 50%;
+	padding: 1rem;
+	margin: 1rem;
+	border-radius: 1rem;
+	border: solid thin rgb(150,150,150);
+	box-shadow: 5px 5px 5px rgba(150,150,150,0.5);
+}
+
+.card .card-content {
+	padding: 0.8rem;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+.card .card-title {
+	border-left: thick solid #0076fe;
+	padding-left: 0.5rem;
+	font-weight: 700;
+	color: #0076fe;
+}
+
+@media (max-width: 768px) {
+	.card {
+		margin: 0;
+		width: 100%;
+	}
+}
+					</code>
+				  </pre>
+				</figure>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Hasil
+			</h2>
+			<br>
+			<div class="card">
+				<div class="card-content">
+					<h3 class="card-title">
+						Contoh Box Shadow
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+			<br>
+		</div>
+		<a href="content-menu.html" width="100%">
+			<h3 class="blue bg-white p-1 rounded shadow back-button">
+				Kembali
+			</h3>
+		</a>
+	</div>
+</body>
+</html>

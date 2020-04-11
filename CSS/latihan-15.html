@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 15: CSS Table - Belajar CSS</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.png">
+</head>
+<body class="bg-blue">
+	<div class="w-100">
+		<div class="home-box bg-white rounded shadow p-5">
+			<h1 class="text-center">
+				Latihan 15: CSS Table
+			</h1>
+			<hr>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Pendahuluan
+			</h2>
+			<div class="border rounded p-1">
+				<p>
+					Tabel digunakan untuk mempermudah audien membaca suatu data. Tabel juga perlu dihias untuk mempercantik tampilan.
+				</p>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode HTML
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+				    <code>
+<!-- Your code here -->
+&lt;div class=&quot;container&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;th&gt;Nama&lt;/th&gt;
+&lt;th&gt;Prodi&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Aksal&lt;/td&gt;
+&lt;td&gt;Teknik Informatika&lt;/td&gt;
+&lt;td&gt;aksal.sf@gmail.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Budi&lt;/td&gt;
+&lt;td&gt;Teknik Informatika&lt;/td&gt;
+&lt;td&gt;budi@gmail.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Caca&lt;/td&gt;
+&lt;td&gt;Teknik Informatika&lt;/td&gt;
+&lt;td&gt;caca@gmail.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+				    </code>
+				  </pre>
+				</figure>
+			</div>
+
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Kode CSS
+			</h2>
+			<div class="border rounded">
+				<figure>
+				  <pre>
+					<code>
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #eee;
+	font-weight: bold;
+}
+
+th, td {
+	padding: 0.8rem 0.4rem;
+	border: solid thin #ddd;
+}
+
+tr, td {
+	background-color: #fff;
+}
+					</code>
+				  </pre>
+				</figure>
+			</div>
+			<h2 class="white bg-blue rounded shadow p-1" style="display: inline-block;">
+				Hasil
+			</h2>
+			<br>
+			<div class="container">
+				<table>
+					<thead>
+						<th>Nama</th>
+						<th>Prodi</th>
+						<th>Email</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Aksal</td>
+							<td>Teknik Informatika</td>
+							<td>aksal.sf@gmail.com</td>
+						</tr>
+						<tr>
+							<td>Budi</td>
+							<td>Teknik Informatika</td>
+							<td>budi@gmail.com</td>
+						</tr>
+						<tr>
+							<td>Caca</td>
+							<td>Teknik Informatika</td>
+							<td>caca@gmail.com</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<br>
+		</div>
+		<a href="content-menu.html" width="100%">
+			<h3 class="blue bg-white p-1 rounded shadow back-button">
+				Kembali
+			</h3>
+		</a>
+	</div>
+</body>
+</html>

@@ -238,3 +238,189 @@ pre > code {
 		height: 150px;
 	}
 }
+
+@media (max-width: 768px) {
+	img {
+		width: 100%;
+	}
+}
+
+.my-btn {
+	margin: 20px 0;
+	padding: 1rem 1.5rem;
+	background: linear-gradient(to right, tomato, crimson);
+	border: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.my-btn:hover {
+	text-decoration: underline;
+	background: crimson;
+}
+
+.card {
+	background-color: #fff;
+	width: 50%;
+	padding: 1rem;
+	margin: 1rem;
+	border-radius: 1rem;
+	border: solid thin rgb(150,150,150);
+	box-shadow: 5px 5px 5px rgba(150,150,150,0.5);
+}
+
+.card .card-content {
+	padding: 0.8rem;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+.card .card-title {
+	border-left: thick solid #0076fe;
+	padding-left: 0.5rem;
+	font-weight: 700;
+	color: #0076fe;
+}
+
+.card .card-img {
+	border-bottom: thin solid #ddd;
+}
+
+.card .card-img img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.card .card-footer {
+	border-top: thin solid #ddd;
+	padding: 1rem 0 1rem 0;
+}
+
+.card .card-footer a{
+	background-color: #0076fe;
+	color:#fff;
+	border: thin #0076fe solid;
+	text-decoration: none;
+	border-radius: 0.5rem;
+	display: inline-block;
+	text-transform: capitalize;
+	padding: 0.8rem;
+	transition: 0.5s all;
+}
+
+.card .card-footer a:hover{
+	background-color: #fff;
+	color: #0076fe;
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	.card {
+		margin: 0;
+		width: 100%;
+	}
+}
+
+.rounded-btn {
+	border-radius: 0.5rem;
+	cursor: pointer;
+	border: thin solid #0076fe;
+	padding: 1rem;
+	color: #fff;
+	background-color: #0076fe;
+	font-weight: 700;
+	transition: 0.5s all;
+	box-shadow: 5px 5px 5px rgba(200,200,200,0.5);
+}
+
+.rounded-btn:hover{
+	background-color: #fff;
+	color: #0076fe;
+}
+
+.container {
+	width: 80%;
+	margin: 0% 10%;
+	overflow: auto;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #eee;
+	font-weight: bold;
+}
+
+th, td {
+	padding: 0.8rem 0.4rem;
+	border: solid thin #ddd;
+}
+
+tr, td {
+	background-color: #fff;
+}
+
+.content {
+	width: 100%;
+}
+
+.sidenav {
+	float: left;
+	width: 20%;
+	height: 100%;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	background-color: #0076fe;
+}
+
+.sidenav ul {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidenav ul li {
+	list-style: none;
+	text-align: center;
+}
+
+.sidenav ul li a {
+	overflow: hidden;
+	display: block;
+	text-decoration: none;
+	background-color: #0076fe;
+	border: thin solid #0076fe;
+	padding: 1rem;
+	color: #fff;
+}
+
+.sidenav ul li a:hover {
+	background-color: #fff;
+	color: #0076fe;
+}
+
+.main {
+	width: 80%;
+	margin-left: 25%;
+}
+
+@media (max-width: 768px) {
+	.sidenav {
+		float: none;
+		width: 100%
+	}
+
+	.main {
+		width: 100%;
+		margin: 0;
+	}
+}
